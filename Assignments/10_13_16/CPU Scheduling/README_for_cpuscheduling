@@ -1,0 +1,66 @@
+# CPU Scheduling algorithms 
+
+
+
+1. FIFO 
+2. RR 
+3. SJF 
+4. PRIORITY (NON PRIMPTIVE) 
+5. HRRN
+6. PRIORITY (PRIMPTIVE) 
+7. SRTF
+
+
+
+-------------------------------------------------
+
+Commands for Executing : 
+	$ cc processes.c
+	$ ./a.out 
+
+
+Input :- 
+	Input is stored in file . 
+	Columns are 
+		process_id	Arrival_time	Burst_time	Priority 
+
+	Example :- 
+		In file namesd processes , contents are 
+
+		p1	0	3	5
+		p2	2	6	3
+		p3	4	4	2
+		p4	6	5	4
+		p5	8	4	1
+
+
+Output : 
+
+	Firstly processes are displayed . Then output of CPU scheduling algorithms are displayed one by one.
+	Value in bracket shows current time 
+
+
+
+Executable :
+	File 'a.out' is executable . 
+
+
+
+
+
+Implemenation :
+
+	Data structures used are :
+		Array 
+		Linked list (For storing processes from file).
+		Circular linked list (for RR algo) .
+
+
+
+
+
+
+
+
+
+ 
